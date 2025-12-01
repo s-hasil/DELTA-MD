@@ -1,4 +1,21 @@
 {
   "name": "delta-md",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "description": "DELTA-MD WhatsApp bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "JoyBoySer",
+  "license": "MIT",
+  "dependencies": {
+    "@adiwajshing/baileys": "^4.0.0",
+    "dotenv": "^16.0.0",
+    "pino": "^8.0.0",
+    "moment": "^2.29.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.0"
+  }
 }
